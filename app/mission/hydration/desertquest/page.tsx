@@ -270,7 +270,7 @@ export default function DesertQuestPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[url('/images/desert-bg.jpg')] bg-cover bg-center p-4">
+    <div className="min-h-screen bg-[url('/images/desert.jpg')] bg-cover bg-center p-4">
       {/* Heat shimmer effect */}
       {showHeatEffect && (
         <div className="fixed inset-0 pointer-events-none z-10">
@@ -322,7 +322,7 @@ export default function DesertQuestPage() {
                   className="relative"
                 >
                   <Image
-                    src="/images/desert-guide.png"
+                    src="/images/dinowater.png"
                     alt="Sandy Guide"
                     width={100}
                     height={120}
@@ -416,11 +416,11 @@ export default function DesertQuestPage() {
             <CardContent className="flex flex-col gap-4">
               <div className="flex justify-center">
                 <Image
-                  src="/images/water-bottle.png"
+                    src="/images/dinowater.png"
                   alt="Water Bottle"
                   width={80}
                   height={80}
-                  className="mx-auto"
+                  className="mx-auto rounded-full"
                   onError={(e) => {
                     e.currentTarget.src = "/placeholder.svg?height=80&width=80"
                   }}

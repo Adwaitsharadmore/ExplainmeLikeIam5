@@ -15,11 +15,11 @@ export default function WelcomePage() {
         </div>
 
         <h1 className="text-4xl md:text-6xl font-bold text-green-600 tracking-tight">
-          Welcome to HealthQuest Kingdom!
+          Explain it to me like I’m 5!
         </h1>
 
         <p className="text-xl md:text-2xl text-orange-500">
-          Your super-awesome adventure to become healthy and strong!
+          Making big ideas small enough for kids
         </p>
 
         <div className="flex justify-center mt-8">
@@ -29,7 +29,8 @@ export default function WelcomePage() {
               className="text-lg px-8 py-6 bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 rounded-full shadow-lg group relative overflow-hidden"
             >
               <span className="relative z-10 flex items-center gap-2">
-                Start Your Adventure! <ArrowRight className="h-5 w-5 animate-pulse" />
+                Start Your Adventure!{" "}
+                <ArrowRight className="h-5 w-5 animate-pulse" />
               </span>
               <span className="absolute inset-0 bg-gradient-to-r from-green-400 to-teal-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
             </Button>
@@ -61,5 +62,5 @@ export default function WelcomePage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
